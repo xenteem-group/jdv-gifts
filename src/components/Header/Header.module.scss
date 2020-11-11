@@ -1,0 +1,48 @@
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  svg {
+    fill: var(--gold-color);
+    stroke: #000;
+  }
+
+  & > div {
+    margin: 5px 20px;
+  }
+
+  .col {
+    a {
+      &.centerItems {
+        display: flex;
+        align-items: center;
+      }
+
+      text-decoration: none;
+      margin: 5px;
+      padding: 5px;
+      svg {
+        margin-right: 5px;
+      }
+      .mobNo {
+        color: var(--gold-color);
+      }
+    }
+
+    .logoWrap {
+      height: 100px;
+      width: 100px;
+
+      img {
+        height: 100%;
+      }
+    }
+  }
+}
