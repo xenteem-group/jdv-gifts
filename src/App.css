@@ -1,7 +1,7 @@
 :root{
     --primary-color:#000B39;
   --gold-color:#BFAC6A;
-  }
-  .App{
-
+  --grey-color:#dddddd;
+  --primary-gradient:radial-gradient(circle, rgba(0,45,132,1) 0%, rgba(0,2,46,1) 100%);
+  
   }

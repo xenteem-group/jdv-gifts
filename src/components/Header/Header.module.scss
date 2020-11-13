@@ -1,14 +1,14 @@
 header {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
-  padding: 10px;
-  background-color: var(--primary-color);
+  background: var(--primary-gradient);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 2px solid var(--gold-color);
   svg {
     fill: var(--gold-color);
     stroke: #000;

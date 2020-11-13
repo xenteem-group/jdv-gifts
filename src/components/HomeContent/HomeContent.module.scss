@@ -1,0 +1,27 @@
+.homeContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: var(--gold-color);
+  .prodWrap {
+    flex: 0 1 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .servicesWrap {
+    background-image: url('https://images.pexels.com/photos/955395/pexels-photo-955395.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-position: center;
+    flex: 0 1 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

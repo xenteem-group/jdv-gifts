@@ -1,0 +1,17 @@
+.footerCopyright{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .flexCol{
+        span{
+            margin: 10px 15px;
+            text-align: center;
+            a{
+                text-decoration: none;
+                color: #000;
+            }
+        }
+    }
+}

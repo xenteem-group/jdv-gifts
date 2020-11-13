@@ -1,5 +1,6 @@
 import React from 'react';
 import { contactData } from '../../config/Config';
+import FooterCopyright from './FooterCopyrights/FooterCopyright'
 import { Phone, Mail, Facebook, Instagram, MapPin } from 'react-feather';
 import Logo from '../../assets/logo/icon-logo.png';
 import classes from './Footer.module.scss';
@@ -35,6 +36,7 @@ const Footer = () => {
         </div>
 
       </div>
+      <FooterCopyright/>
     </footer>
   );
 };

@@ -1,0 +1,22 @@
+@mixin rowCenter{
+    display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navItems {
+  @include rowCenter;
+  .navPages {
+    @include rowCenter;
+  }
+  .navAccount{
+    @include rowCenter;
+
+    svg{
+        fill: var(--gold-color);
+        stroke: #000;
+        margin: 10px 20px;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.PaymentOptions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--grey-color);
+  padding: 20px;
+
+  h2{
+    margin: 0px 20px;
+  }
+  .PaymentOption {
+      margin: 0px 20px; 
+    svg {
+      width: 100px;
+      height: 100px;
+    }
+  }
+}
