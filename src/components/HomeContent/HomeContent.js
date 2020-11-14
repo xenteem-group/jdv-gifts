@@ -12,9 +12,9 @@ const HomeContent = () => {
     <div className={classes.homeContent}>
       <div className={classes.prodWrap}>
         {products.map((product, i) => (
-          // <Link to={'/product/' + product.id} key={product.id}>
+          <Link to={'/product'} key={product.id}>
             <Product key={product.code} product={product} />
-          // </Link> 
+          </Link> 
         ))}
       </div>
       <div className={classes.servicesWrap}>
