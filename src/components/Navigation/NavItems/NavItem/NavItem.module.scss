@@ -1,13 +1,16 @@
 .navItem{
-    &.active{
-        border-bottom: 2px solid var(--gold-color);
-    }
+    
+  
     margin: 10px;
     padding: 5px;
     a{
+        &.active{
+            border-bottom: 2px solid var(--gold-color);
+        }
         text-decoration: none;
         color: var(--gold-color);
         font-weight: 600;
         font-size: 24px;
+        
     }
 }
