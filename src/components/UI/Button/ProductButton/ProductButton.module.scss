@@ -1,0 +1,20 @@
+.wrap{
+    margin: 10px;
+    button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        border: 0px;
+        background-color: rgba(0,0,0,0.5);
+        color: #bfac6a;
+        text-align: center;
+        padding: 10px;
+        font-size: 14px;
+        text-decoration: none;
+        svg{
+            margin-right:10px;
+        }
+    }
+}
+

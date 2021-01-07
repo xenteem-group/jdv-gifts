@@ -4,3 +4,9 @@
     flex-direction: row;
     justify-content: space-around;
 }
+
+@media(max-width:768px){
+    .productView{
+        flex-direction: column;
+    }
+}

@@ -1,10 +1,36 @@
-.product{
+.product {
+  width: 50%;
+  position: relative;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  .imgWrap {
+    height: 400px;
+    img {
+      height: 400px;
+      width: 100%;
+    }
+  }
+  .detailWrap {
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
     width: 100%;
-    .imgWrap{
-        height: 400px;
-        img{
-            height: 400px;
-            width: 100%;
+
+    .btnWrap{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a{
+          text-decoration: none;
         }
     }
+  }
+}
+
+@media(max-width:768px){
+  .product{
+    width: 100%;
+  }
 }

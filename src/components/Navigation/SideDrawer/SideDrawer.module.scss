@@ -1,0 +1,39 @@
+.sideDrawer{
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    position: fixed;
+    overflow-y: scroll;
+    left: 0px;
+    top: 0px;
+    padding: 10px;
+    width: 100%;
+    height: 100vh;
+    transition: all 0.5s ease-in;
+    transform: translateX(100%);
+    background-color: var(--primary-color);
+   
+    .navPages{
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .navAccount{
+        margin-top: 60px;
+        text-align: center;
+        
+        svg{
+            margin: 30px;
+        }
+    }
+}
+
+.open {
+    transform: translateX(0%);
+}
+
+@media (min-width: 769px) {
+    .sideDrawer {
+        display: none;
+    }
+}

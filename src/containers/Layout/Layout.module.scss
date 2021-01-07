@@ -1,6 +1,12 @@
 .layout{
   overflow-x: unset;
-  width: 1100px;
+  max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
+}
+
+@media(max-width:768px){
+  .layout{
+    max-width: 100%;
+  }
 }

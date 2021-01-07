@@ -1,0 +1,19 @@
+header{
+  
+    .col {
+        a {
+          &.centerItems {
+            display: flex;
+            align-items: center;
+          }
+    
+          text-decoration: none;
+          color: var(--gold-color);
+          margin: 5px;
+          padding: 5px;
+          svg {
+            margin-right: 5px;
+          }
+        }
+    }
+}

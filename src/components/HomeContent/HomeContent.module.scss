@@ -28,3 +28,17 @@
     width: 50%;
   }
 }
+
+@media(max-width:768px){
+  .homeContent {
+    flex-direction: column;
+    background-color: #fff;
+
+    .prodWrap{
+      margin: 0px;
+    }
+    .servicesWrap{
+      margin: 0px;
+    }
+  }
+}

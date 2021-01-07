@@ -1,0 +1,17 @@
+.mobileNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+
+  .col {
+    .logoWrap {
+      height: 50px;
+      width: 50px;
+
+      img {
+        height: 100%;
+      }
+    }
+  }
+}

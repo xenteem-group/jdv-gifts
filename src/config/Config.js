@@ -19,7 +19,7 @@ export const productData =  [
     img:
       'https://images.pexels.com/photos/3766180/pexels-photo-3766180.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
     alt: 'product image',
-    price: 45.00,
+    price: '45.00',
   },
   {
     name: 'Water Bottle',
@@ -27,7 +27,7 @@ export const productData =  [
     img:
       'https://images.pexels.com/photos/3195774/pexels-photo-3195774.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260',
     alt: 'product image',
-    price: 45.00,
+    price: '45.00',
   },
   {
     name: 'Water Bottle',
@@ -35,7 +35,7 @@ export const productData =  [
     img:
       'https://images.pexels.com/photos/3766180/pexels-photo-3766180.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
     alt: 'product image',
-    price: 45.00,
+    price: '45.00',
   },
   {
     name: 'Water Bottle',
@@ -43,6 +43,6 @@ export const productData =  [
     img:
       'https://images.pexels.com/photos/4000090/pexels-photo-4000090.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260',
     alt: 'product image',
-    price: 45.00,
+    price: '45.00',
   },
 ];

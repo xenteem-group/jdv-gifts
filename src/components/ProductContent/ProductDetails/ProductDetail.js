@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from '../../UI/Button/Button'
+import ProductViewButton from '../../UI/Button/ProductViewButton/ProductViewButton'
 import classes from './ProductDetail.module.scss'
 
 const ProductDetail = (props) => {
@@ -9,8 +9,8 @@ const ProductDetail = (props) => {
             <h2>{product.name}</h2>
             <div className={classes.price}>${product.price}.00 usd</div>
             <div className={classes.quantity}>Quantity</div>
-            <Button text="Add to Cart"/>
-            <Button text="Buy Now"/>
+            <ProductViewButton text="Add to Cart"/>
+            <ProductViewButton text="Buy Now"/>
             </div>
 
     )
