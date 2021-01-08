@@ -4,11 +4,11 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
     .flexCol{
         margin: 20px;
         span{
             margin: 10px 15px;
-            text-align: center;
             a{
                 text-decoration: none;
                 color: #000;
@@ -20,5 +20,10 @@
 @media(max-width:768px){
     .footerCopyright{
         flex-direction: column;
+        .flexCol{
+            span{
+                display: block;
+            }
+        }
     }
 }
