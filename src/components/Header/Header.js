@@ -8,11 +8,13 @@ const Header = () => {
 
   const {link, contact} = contactData;
   const size = 28;
+  const color = 'var(--gold-color)';
+
   return (
     <header>
       <div className={classes.col}>
         <a href={link.phone} className={classes.centerItems}>
-          <Phone size={size} />
+          <Phone size={size} color={color}/>
           <div className={classes.mobNo}>{contact.phone}</div>
         </a>
       </div>
@@ -23,11 +25,11 @@ const Header = () => {
       </div>
       <div className={classes.col}>
         <a href={link.phone}>
-          <Facebook size={size} />
+          <Facebook size={size} color={color}/>
         </a>
 
         <a href={link.phone}>
-          <Instagram size={size} />
+          <Instagram size={size} color={color}/>
         </a>
       </div>
     </header>

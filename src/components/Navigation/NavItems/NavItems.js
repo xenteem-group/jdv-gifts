@@ -6,6 +6,8 @@ import { ShoppingCart, User } from 'react-feather'
 const NavItems = (props) => {
 
     const size=30;
+    const color = 'var(--gold-color)';
+
 
   const navPages = [
     {
@@ -30,8 +32,8 @@ const NavItems = (props) => {
         })}
       </div>
       <div className={classes.navAccount}>
-        <ShoppingCart size={size}/>
-        <User size={size}/>
+        <ShoppingCart size={size} color={color}/>
+        <User size={size} color={color}/>
       </div>
     </div>
   );

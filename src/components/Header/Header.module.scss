@@ -9,10 +9,7 @@ header {
   justify-content: space-between;
   align-items: center;
   border-bottom: 2px solid var(--gold-color);
-  svg {
-    fill: var(--gold-color);
-    stroke: #000;
-  }
+
 
   & > div {
     margin: 5px 20px;
