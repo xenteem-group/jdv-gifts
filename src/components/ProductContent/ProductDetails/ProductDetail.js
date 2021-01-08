@@ -7,7 +7,7 @@ const ProductDetail = (props) => {
     return(
         <div className={classes.productDetail}>
             <h2>{product.name}</h2>
-            <div className={classes.price}>${product.price}.00 usd</div>
+            <div className={classes.price}>${product.price}</div>
             <div className={classes.quantity}>Quantity</div>
             <ProductViewButton text="Add to Cart"/>
             <ProductViewButton text="Buy Now"/>

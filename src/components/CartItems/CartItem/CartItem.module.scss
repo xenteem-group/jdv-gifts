@@ -1,0 +1,117 @@
+.row {
+            
+    display: flex;
+    flex-direction: column;
+    flex-flow:nowrap;
+    background-color: #ffffff;
+    padding: 5px 0px;
+    align-items: center;
+
+        .mobileHeader{
+            display: none;
+        }
+
+        .imgCol {
+            width: 30%;
+            .bottleImg {
+                width: 100px;
+                height: auto;
+            }
+        }
+
+        .descCol{
+            width: 30%;
+        }
+
+        .qtyCol{
+            width: 10%;
+        }
+
+        .rateCol{
+            width: 10%;
+        }
+        .amtCol{
+            width: 10%;
+        }
+        .dltCol{
+            width: 10%;
+        }
+
+        hr{
+            display: none;
+        }
+}
+
+@media (max-width: 767px) {
+
+    .row {
+                 
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding: 30px 35px;
+
+        .mobileHeader{
+                display: block;
+                font-weight: 600;
+                padding: 7px 0px;
+        
+        }
+        .items{
+            margin-left: 40px;
+                }
+            .imgCol {
+                width: 100%;
+                .bottleImg {
+                    width: 200px;
+                    height: auto;
+                }
+            }
+
+            .descCol{
+                font-size: 30px;
+                width: 100%;
+            }
+
+            .qtyCol{
+                width: 100%;
+            }
+
+            .rateCol{
+                width: 100%;
+            }
+            .amtCol{
+                width: 100%;
+            }
+            .dltCol{
+                width: 100%;
+                padding-top: 10px;
+            }
+            hr{
+                width: 100%;
+                display: block;
+                padding: 0;
+                margin:  20px 0 ;
+                border: none;
+                height: 1px;
+                background-color: hsla(0,0%,59%,.15);
+            }
+
+    }
+   
+}
+
+@media (max-width: 400px) {
+    .row {
+        padding: 20px 25px;
+
+       
+            .imgCol {
+                .bottleImg {
+                    width: 100px;
+                    height: auto;
+                }
+            }
+        }
+
+}

@@ -2,7 +2,7 @@ import Layout from './containers/Layout/Layout'
 import Home from './containers/Home/Home'
 import ProductView from './containers/ProductView/ProductView'
 import { Route, Switch } from "react-router-dom";
-
+import Cart from './containers/Cart/Cart'
 
 import './App.css';
 
@@ -14,6 +14,7 @@ function App() {
           <Route exact path="/" component={Home} />
           {/* <Route exact path="/product/:id" component={ProductView} /> */}
           <Route exact path="/product" component={ProductView} />
+          <Route exact path="/cart" component={Cart} />
         </Switch>
       </Layout>
     </div>
