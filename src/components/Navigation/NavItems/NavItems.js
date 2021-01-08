@@ -1,13 +1,12 @@
 import React from 'react';
-import NavItem from './NavItem/NavItem'
+import NavItem from './NavItem/NavItem';
+import { Link } from 'react-router-dom';
 import classes from './NavItems.module.scss';
-import { ShoppingCart, User } from 'react-feather'
+import { ShoppingCart, User } from 'react-feather';
 
 const NavItems = (props) => {
-
-    const size=30;
-    const color = 'var(--gold-color)';
-
+  const size = 30;
+  const color = 'var(--gold-color)';
 
   const navPages = [
     {
@@ -32,8 +31,12 @@ const NavItems = (props) => {
         })}
       </div>
       <div className={classes.navAccount}>
-        <ShoppingCart size={size} color={color}/>
-        <User size={size} color={color}/>
+        <Link to="/cart">
+          <ShoppingCart size={size} color={color} />
+        </Link>
+        <Link to="/profile">
+          <User size={size} color={color} />
+        </Link>
       </div>
     </div>
   );

@@ -20,9 +20,7 @@ const Product = (props) => {
         {product.name}
         <br />$ {product.price}
         <div className={classes.btnWrap}>
-          <Link to={'/cart'}>
             <ProductButton text="Add to Cart" icon={cart} />
-          </Link>
           <Link to={'/product'}>
             <ProductButton text="Buy Now" icon={buy} />
           </Link>
