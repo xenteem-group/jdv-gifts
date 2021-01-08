@@ -14,8 +14,7 @@
     @include rowCenter;
 
     svg{
-        fill: var(--gold-color);
-        stroke: #000;
+        stroke: var(--gold-color);
         margin: 10px 20px;
     }
   }

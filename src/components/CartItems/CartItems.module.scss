@@ -1,0 +1,221 @@
+.wrap{
+
+    padding: 10px 50px;
+    background-color: #C4C4C4;
+    font-weight: 700;
+    
+    .tableContainer{
+        display: flex;
+        flex-direction: column;
+        border-color: #000000;
+        border-style: solid;
+        border-width: 0.5px;
+        text-align: center;
+        vertical-align: middle;            
+
+
+        .headerRow {
+        
+            display: flex;
+            flex-flow:nowrap;
+            justify-content: space-between;
+            width: 100%;
+            background-color: #EAEAEA;
+            
+            
+
+                .imgCol {
+                    width: 30%;
+                }
+
+                .descCol{
+                    width: 30%;
+                }
+
+                .qtyCol{
+                    width: 10%;
+                }
+
+                .rateCol{
+                    width: 10%;
+                }
+                .amtCol{
+                    width: 10%;
+                }
+                .dltCol{
+                    width: 10%;
+                }
+
+        }
+        .shipRow{
+            display: flex;
+            justify-content:flex-end;
+            background-color: #C4C4C4;
+            width: 100%;
+            padding: 15px 0px;
+    
+    
+            .nameCol{
+                width: 20%;
+                text-align: right;
+            }
+    
+            .totalCol{
+                width: 10%;
+            }
+            .blankCol{
+                width: 10%;
+            }
+        }
+    
+        .totalRow{
+            display: flex;
+            justify-content:flex-end;
+            background-color: #C4C4C4;
+            width: 100%;
+            padding: 15px 0px;
+    
+    
+            .nameCol{
+                width: 20%;
+                text-align: right;
+            }
+    
+            .totalCol{
+                width: 10%;
+            }
+            .blankCol{
+                width: 10%;
+            }
+        }
+    }
+    
+}
+
+
+.btnContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5px;
+    
+    
+    .contBtn{
+        min-width: 245px;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 700;
+        cursor: pointer;
+        background-color: #000000;
+    }
+
+    .COBtn{
+        min-width: 245px;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 700;
+        cursor: pointer;
+        background-color: #000000;
+    }
+}
+    
+    
+
+
+@media (max-width: 767px) {
+
+    .wrap{
+        padding: 5px 20px;
+        font-weight: 500;
+        
+        .tableContainer{      
+    
+    
+            .headerRow {
+                display: none;
+            }
+            .shipRow{
+        
+        
+                .nameCol{
+                    width: 30%;
+                }
+        
+                .totalCol{
+                    width: 20%;
+                }
+                .blankCol{
+                    width: 10%;
+                }
+            }
+        
+            .totalRow{
+                padding: 15px 0px;
+        
+        
+                .nameCol{
+                    width: 30%;
+                }
+        
+                .totalCol{
+                    width: 20%;
+                }
+                .blankCol{
+                    width: 10%;
+                }
+            }
+        }
+
+        .btnContainer{
+            flex-direction: column;
+
+            .contBtn{
+                margin: 10px 0;
+
+            }
+        
+            .COBtn{
+                margin: 10px 0;
+
+            }
+
+        }
+    }
+}
+
+
+@media (max-width: 534px) {
+
+
+    .wrap{
+        .tableContainer{   
+            .shipRow{
+                .nameCol{
+                    width: 60%;
+                }
+                .totalCol{
+                    width: 30%;
+                }
+                .blankCol{
+                    width: 5%;
+                }
+            }
+            .totalRow{
+                .nameCol{
+                    width: 60%;
+                }
+                .totalCol{
+                    width: 30%;
+                }
+                .blankCol{
+                    width: 5%;
+                }
+            }
+        }
+    }
+}
