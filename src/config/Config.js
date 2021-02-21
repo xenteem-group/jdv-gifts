@@ -3,12 +3,12 @@ export const contactData = {
     facebook: 'https://facebook.com',
     instagram: 'https://instagram.com',
     email: 'mailto:jdv@gmail.com',
-    phone: 'tel:+94777998546',
+    phone: 'tel:+4478 2556 6043',
   },
   contact:{
-      phone:'+94 777 99 8546',
+      phone:'078 2556 6043',
       email: 'jdv@gmail.com',
-      location: '68, example st. London.'
+      location: '173, Barely Lane, Goodmayes, LG3 8XU'
   }
 };
 
