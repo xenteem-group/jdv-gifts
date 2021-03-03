@@ -1,6 +1,7 @@
 import React from 'react';
 import ProductButton from '../UI/Button/ProductButton/ProductButton';
 import { Link } from 'react-router-dom';
+import { relativePath } from '../../config/Config'
 import { ShoppingCart, DollarSign } from 'react-feather';
 import classes from './Product.module.scss';
 
@@ -21,7 +22,7 @@ const Product = (props) => {
         <br />$ {product.price}
         <div className={classes.btnWrap}>
             <ProductButton text="Add to Cart" icon={cart} />
-          <Link to={'/product'}>
+          <Link to={`${relativePath}/product`}>
             <ProductButton text="Buy Now" icon={buy} />
           </Link>
         </div>

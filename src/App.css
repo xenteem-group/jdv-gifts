@@ -5,3 +5,11 @@
   --primary-gradient:radial-gradient(circle, rgba(0,45,132,1) 0%, rgba(0,2,46,1) 100%);
   
   }
+
+  a{
+    text-decoration: none;
+  }
+
+  a:hover{
+    text-decoration: underline;
+  }

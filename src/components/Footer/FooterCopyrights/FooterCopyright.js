@@ -18,7 +18,7 @@ const FooterCopyright = () => (
     </div>
     <div className={classes.flexCol}>
       <span>
-        <a href="www.xenteem.com">Powered by Xenteem Solutions (pvt) Ltd.</a>
+        <a href="https://www.xenteem.com" target="_blank">Powered by Xenteem Solutions (pvt) Ltd.</a>
       </span>
     </div>
   </div>

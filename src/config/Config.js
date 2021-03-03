@@ -12,6 +12,8 @@ export const contactData = {
   }
 };
 
+export const relativePath = '/demo'
+
 export const productData =  [
   {
     name: 'Water Bottle',

@@ -36,7 +36,6 @@ const Banner = () => {
           return(
             <div key={i}>
             <img src={prd.img} alt={prd.alt}/>
-        <p className="legend">{prd.tag}</p>
           </div>
           )
           

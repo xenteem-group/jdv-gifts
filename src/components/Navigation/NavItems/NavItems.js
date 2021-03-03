@@ -3,6 +3,7 @@ import NavItem from './NavItem/NavItem';
 import { Link } from 'react-router-dom';
 import classes from './NavItems.module.scss';
 import { ShoppingCart, User } from 'react-feather';
+import { relativePath } from '../../../config/Config'
 
 const NavItems = (props) => {
   const size = 30;
@@ -11,17 +12,20 @@ const NavItems = (props) => {
   const navPages = [
     {
       name: 'Home',
-      link: '/',
+      link: `${relativePath}`,
     },
     {
       name: 'About Us',
-      link: '/about',
+      link: `${relativePath}/about`,
     },
     {
       name: 'Contact Us',
-      link: '/contact',
+      link: `${relativePath}/contact`,
     },
   ];
+
+  const profileLink = `${relativePath}/signin`
+  const cartLink = `${relativePath}/cart`
 
   return (
     <div className={classes.navItems}>
@@ -31,10 +35,10 @@ const NavItems = (props) => {
         })}
       </div>
       <div className={classes.navAccount}>
-        <Link to="/cart">
+        <Link to={cartLink}>
           <ShoppingCart size={size} color={color} />
         </Link>
-        <Link to="/profile">
+        <Link to={profileLink}>
           <User size={size} color={color} />
         </Link>
       </div>

@@ -31,8 +31,8 @@ const Footer = () => {
           </div>
         </div>
         <div className={classes.col}>
-            <a href={link.facebook}><Facebook size={size}/>/JDV Shop</a>
-            <a href={link.instagram}><Instagram size={size}/>/@JDV_Shop</a>
+            <a href={link.facebook} target="_blank"><Facebook size={size}/>/JDV Shop</a>
+            <a href={link.instagram} target="_blank"><Instagram size={size}/>/@JDV_Shop</a>
         </div>
 
       </div>

@@ -6,11 +6,11 @@ import classes from './ProductView.module.scss'
 
 const ProductView = () => {
     return(
-        <React.Fragment>
+        <>
             <ProductContent products={productData}/>
             <PaymentOptions/>
 
-        </React.Fragment>
+        </>
     )
 }
 
